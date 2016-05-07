@@ -1,0 +1,220 @@
+body {background-color: #4aaaa5;
+}
+
+.content { overflow: hidden;					 
+}
+
+.head-menu {background-color: #ffffff;
+						border-color: #cccccc;
+						position: fixed;
+						left: 0;
+						top: 0;
+						width: 100%;
+}
+
+.name {font-size: 25px;
+				background-color: #4aaaa5;
+				margin-right: 650px;	
+				margin-left: 150px;	
+				margin-bottom: 0;	
+				margin-top: 0;
+				color: #777777;
+				width: 15%;
+				padding: 15px 0 42px 0;
+				text-align: center;
+				font-family: 'Georgia', Times, Times New Roman, serif;
+}
+
+.name:hover {background-color: #FFA500;
+							text-decoration: none;
+}
+
+.nav {position: absolute;
+			right: 198px;
+			top: 30px;
+}
+
+a:hover {background-color: 	#FFA500;
+					text-decoration: none;
+}
+
+#about-me {background-color: gray;
+			position: absolute;
+			width: 560px;
+			height: 400px;
+			left: 0;
+			margin: 40px 0 0 144px;
+}
+
+#image { height: 200px; 
+					width: 200px;
+					padding-left: 5px;
+					padding-top: 10px;
+					float: left;
+}
+
+.me {padding-left: 20px;
+		font-family: 'Georgia', Times, Times New Roman, serif;
+}
+
+
+hr {width: 95%;
+}
+
+
+#connect-me {background-color: white;
+						margin: 40px 180px 0 0;
+						position: absolute;
+						right: 0;
+						width: 200px;
+						text-align: center;							
+}
+
+#logo {padding-top: 10px;
+}
+
+#background {background-image: url("./assets/images/purty_wood.png");
+   					position: relative;
+   					height: 570px;
+   					width: 100%;
+   					left: 0;
+   					margin-top: 79px;
+}
+
+
+/* portfolio stylesheet */
+
+#portfolio {background-color: gray;
+			position: absolute;
+			width: 470px;
+			height: 520px;
+			left: 0;
+			margin: 40px 0 0 144px;			
+}
+
+.port {padding-left: 20px;
+}
+
+#bio-image {height: 130px;
+						width: 170px;
+						position: relative;
+						left: 0;
+						padding-left: 40px;
+}
+
+.hangman {position: absolute;
+					background-color: white;
+					width: 132px;
+					height: 10px;
+					padding: 20px;
+					margin-left: 183px;
+					margin-top: 190px;
+					left: 0;
+					text-align: center;
+					color: #777777;
+					opacity: .7;
+}
+
+.rpg {position: absolute;
+					background-color: white;
+					width: 132px;
+					height: 10px;
+					padding: 20px;
+					margin-left: 396px;
+					margin-top: 190px;
+					left: 0;
+					text-align: center;
+					color: #777777;
+					opacity: .7;
+}
+
+.trivia {position: absolute;
+					background-color: white;
+					width: 132px;
+					height: 10px;
+					padding: 20px;
+					margin-left: 183px;
+					margin-top: 324px;
+					left: 0;
+					text-align: center;
+					color: #777777;
+					opacity: .7;
+}
+
+.rutgers {position: absolute;
+					background-color: white;
+					width: 132px;
+					height: 10px;
+					padding: 20px;
+					margin-left: 396px;
+					margin-top: 324px;
+					left: 0;
+					text-align: center;
+					color: #777777;
+					opacity: .7;
+}
+
+
+.game {position: absolute;
+					background-color: white;
+					width: 132px;
+					height: 10px;
+					padding: 20px;
+					margin-left: 183px;
+					margin-top: 460px;
+					left: 0;
+					text-align: center;
+					color: #777777;
+					opacity: .7;
+}
+
+/*form*/
+
+#contact {background-color: gray;
+			position: absolute;
+			width: 550px;
+			height: 450px;
+			left: 0;
+			margin: 40px 0 0 144px;
+}
+
+.con{padding-left: 20px;
+}
+
+.form {padding-left: 20px;					
+}
+
+form input { 
+    width: 400px;
+    height: 30px;    
+}
+
+button {background-color: white;
+				border: 1px;
+				width: 50px;
+				height: 35px;
+}
+
+.button:hover {background-color: yellow;}
+
+form textarea {width: 400px;
+}
+
+/*footer*/
+
+footer {background-color: white;
+				clear: both;
+				padding: 10px;
+				width: 100%;
+				bottom: 0px;
+				position: fixed;
+				left: 0;
+}
+
+#foot {text-align: center;
+				font-size: 12px;
+				color: #777777;
+}
+
+
+
