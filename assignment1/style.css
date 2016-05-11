@@ -216,5 +216,147 @@ footer {background-color: white;
 				color: #777777;
 }
 
+/*media queries*/
+
+@media screen and (max-width: 980px){
+		.content {
+			width: 100%;
+	}
+		#background {
+			background-image: url("./assets/images/purty_wood.png");
+			position: relative;
+			height: 460px;
+			width: 100%;
+			left: 0;
+			margin-top: 108px;
+	}
+		#about-me {background-color: gray;
+			position: absolute;
+			width: 560px;
+			height: 400px;
+			left: 0;
+			margin: 40px 0 0 90px;
+	}
+
+		#image { height: 200px; 
+					width: 200px;
+					padding-left: 5px;
+					padding-top: 10px;
+					float: left;
+	}
+		#connect-me {background-color: white;
+						margin: 40px 100px 0 0;
+						position: absolute;
+						right: 0;
+						width: 200px;
+						text-align: center;							
+	}
+}
+
+@media screen and (max-width: 768px){
+		.content {
+			width: 100%;
+	}
+		#background {
+			background-image: url("./assets/images/purty_wood.png");
+			position: relative;
+			height: 460px;
+			width: 100%;
+			left: 0;
+			margin-top: 108px;
+	}
+		#about-me {background-color: gray;
+			position: absolute;
+			width: 80%;
+			height: 300px;
+			margin: 10px 10px 0 75px;
+			left: 0;
+
+	}
+		#image {height: 160px; 
+					width: 195px;
+					padding-left:5px;
+					padding-top: 10px;
+					float: left;
+	}
+		#connect-me {background-color: white;
+						position: absolute;
+						right: 70px;
+						width: 400px;
+						bottom: 10px;
+						text-align: center;							
+	}
+}
+
+@media screen and (max-width: 640px){
+	.content {
+			width: 100%;
+	}
+	.head-menu {
+			background-color: #ffffff;
+			border-color: #cccccc;
+			position: fixed;
+			left: 0;
+			top: 0;
+			width: 100%;
+	}
+	.name {
+			font-size: 25px;
+			background-color: #4aaaa5;
+			color: #777777;
+			width: 100%;
+			position: fixed;
+			left: 0;
+			margin: auto;
+			text-align: center;
+			font-family: 'Georgia', Times, Times New Roman, serif;
+	}
+	.nav {
+			background-color: #ffffff;
+			position: relative;
+			top: 50px;
+			width: 100%;
+			position: fixed;
+			left: 0;
+			margin: auto;
+			text-align: center;
+			padding-bottom: 20px;
+			padding-top: 15px
+	}
+	#background {
+			background-image: url("./assets/images/purty_wood.png");
+			position: relative;
+			height: 470px;
+			width: 100%;
+			left: 0;
+			margin-top: 100px;
+	}
+	#about-me {background-color: gray;
+			position: absolute;
+			width: 80%;
+			height: 300px;
+			left: 0;
+			margin: 10px 0px 0 10px;
+			padding-right: 104px;
+
+	}
+	#image {height: 160px; 
+					width: 195px;
+					padding-left:5px;
+					padding-top: 10px;
+					float: left;
+	}
+	#connect-me {background-color: white;
+						position: absolute;
+						right: 5px;
+						width: 400px;
+						bottom: 20px;
+						text-align: center;							
+}
+}
+
+
+
+
 
 
