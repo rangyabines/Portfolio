@@ -52,7 +52,7 @@ p {
 }
 
 .bg-primary {
-    background-color: #f05f40;
+    background-color: #f87255;
 }
 
 .bg-dark {
@@ -484,4 +484,28 @@ body {
 .img-responsive {width: 650px;
                  height: 350px;
 }
+/*.form-group {
+    padding-right: 40em; 
+
+}*/
+form {
+        position: relative;
+        margin-right: 90px;
+        padding-right: 30em;
+}
+.icons {
+   position: absolute;
+   right: 0;
+   margin-top: -20em;
+   margin-right: 10em;
+}
+
+.navbar-text {
+    color: #f08080;
+    text-align: center;
+    padding-left: 29em;
+    font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
+}
+
+
 
